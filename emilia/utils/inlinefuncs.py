@@ -115,7 +115,7 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     ubot_state = "Dead" if not await ubot2.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main bot", url="https://t.me/EmiliaPrjkt_bot"),
+        InlineKeyboardButton("Update Channel", url="https://t.me/cs_cloud"),
         InlineKeyboardButton(
             "Go Inline!", switch_inline_query_current_chat=""
         ),
@@ -128,7 +128,7 @@ async def alive_function(answers):
 **✧ Pyrogram:** `{pyrover}`
 **✧ MongoDB:** `{mongover}`
 **✧ Platform:** `{sys.platform}`
-**✧ Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/ZenitsuPrjkt)
+**✧ Profiles:** [BOT](t.me/{BOT_USERNAME}) | [Owner 👑](t.me/iAmLiKu1)
 """
     answers.append(
         InlineQueryResultArticle(
