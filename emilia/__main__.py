@@ -145,19 +145,21 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 PM_START_TEXT = """
-Hey there! My name is {}.
+✨Hello There {} , I'm Suzune [🥰](https://telegra.ph/file/4b98cfbe489d3d769eb33.jpg)
+An anime - Themed advanced telegram Group management 
+Bot For help You Manage & Protect Your Groups.
 ────────────────────────
-× *Bot Uptime:* `{}`
-× `{}` *users, across* `{}` *chats*
+×➼  *Bot Uptime:* `{}`
+×➼  `{}` *users, across* `{}` *chats*
 ────────────────────────
-I can managing your group with useful features, feel free to add me to your groups! [✨](https://telegra.ph/file/8142e7aac030eebd40a4e.jpg)
+♻️Maintained by [ ℭ𝐒 ‣ ᏂᎧᏇᏝ⚡// ](https://t.me/iAmLiKu1)
 """
 
 buttons = [
 
     [
 
-        InlineKeyboardButton(text="About Sizune", callback_data="Emilia_"),
+        InlineKeyboardButton(text="About Suzune", callback_data="Emilia_"),
 
     ],
 
@@ -177,7 +179,7 @@ buttons = [
 
         InlineKeyboardButton(
 
-            text="➗ Add Sizune To Your Group ➗", url="t.me/EmiliaPrjkt_bot?startgroup=new"),
+            text="➗ Add Suzune To Your Group ➗", url="t.me/HowlNOBOT?startgroup=new"),
 
     ],
 
@@ -192,7 +194,7 @@ HELP_STRINGS = """
    ✧ in PM: will send you your settings for all supported modules.
    ✧ in a Group: will redirect you to pm, with all that chat's settings."""
 
-EMILIA_IMG = "https://telegra.ph/file/8142e7aac030eebd40a4e.jpg"
+EMILIA_IMG = "https://telegra.ph/file/83db5cd9a348b1f90c4fd.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can support the project by contacting @iAmliKU1 \n
@@ -607,7 +609,7 @@ def emilia_about_callback(update, context):
 
         query.message.edit_text(
 
-            text="✦ I'm *Sizune*, a powerful group management bot built to help you manage your group easily."
+            text="✦ I'm *Suzune*, a powerful group management bot built to help you manage your group easily."
 
             "\nI can restrict users."
 
@@ -701,7 +703,7 @@ def emilia_about_callback(update, context):
 
             text=f"✦ *Let's make your group bit effective now*"
 
-            "\nCongragulations, Emilia now ready to manage your group."
+            "\nCongragulations, Suzune now ready to manage your group."
 
             "\n\n✦ *Admin Tools*"
 
@@ -753,7 +755,7 @@ def emilia_about_callback(update, context):
 
         query.message.edit_text(
 
-            text="*✦ sizune support chats*"
+            text="*✦ suzune support chats*"
 
             "\nJoin My Support Group/Channel for see or report a problem on Emilia.",
 
@@ -789,9 +791,9 @@ def emilia_about_callback(update, context):
 
         query.message.edit_text(
 
-            text=f"✦ *Credis for Sizune*\n"
+            text=f"✦ *Credis × More about Suzune*\n"
 
-            "\nHere Developers Making And Give Inspiration For Made The Emilia",
+            "\nHere is Some Group & Channel",
 
             parse_mode=ParseMode.MARKDOWN,
 
@@ -825,15 +827,15 @@ def emilia_about_callback(update, context):
 
                  [
 
-                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
+                    InlineKeyboardButton(text="LIKU CS - dev", url="https://github.com/likucs"),
 
-                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
+                    InlineKeyboardButton(text="😆😆😆", url="https://github.com/noob-kittu"),
 
                  ],
 
                  [
 
-                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
+                    InlineKeyboardButton(text="MC Ott", url="https://t.me/+_-SVJARYJwA3NmJl"),
 
                     InlineKeyboardButton(text="MC - Credit", url="https://t.me/xXtheAnonymousXx"),
 
