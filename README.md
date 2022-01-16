@@ -2,12 +2,12 @@
   <img src="https://telegra.ph/file/83db5cd9a348b1f90c4fd.jpg">
 </p>
 
-<h4><p align="center">Emilia</p></h4>
+<h4><p align="center">Suzune</p></h4>
 
-<p align="center">Emilia is a modular bot running on python3 with anime theme and have a lot features.</p>
+<p align="center">Suzune is a modular bot running on python3 with anime theme and have a lot features.</p>
 
 <p align="center">
-<a href="https://t.me/EmiliaPrjkt_bot"> <img src="https://img.shields.io/badge/Emilia-blue?&logo=telegram" alt="Emilia on Telegram" /> </a><br>
+<a href="https://t.me/cs_cloud"> <img src="https://img.shields.io/badge/Emilia-blue?&logo=telegram" alt="Emilia on Telegram" /> </a><br>
 <a href="https://python-telegram-bot.org"> <img src="https://img.shields.io/badge/PTB-13.10-white?&style=flat-round&logo=github" alt="Python Telegram Bot" /> </a>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a><br>
 <a href="https://docs.telethon.dev"> <img src="https://img.shields.io/badge/Telethon-1.24.0-red?&style=flat-round&logo=github" alt="Telethon" /> </a>
@@ -22,6 +22,5 @@
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ZenitsuPrjkt/Emilia"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 ## Credit 
-<img src="https://img.shields.io/badge/animekaizoku%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/PaulSonOfLars%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/HuntingsBots%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/inukaasith%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/noobkittu%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/QueenArzoo%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+    FUCK NO CREDIT I WASTED MY 7DAYS IN THIS PROJECT TO FIX PROBLEMS WHICH IS CREATED BY REAL OWNER OF THIS REPO
+
