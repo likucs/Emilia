@@ -19,9 +19,9 @@ jobs:
 
         with:
 
-          find: "excrybaby"
+          find: "@excrybaby"
 
-          replace: "iAmLiKu1"
+          replace: "@iAmLiKu1"
 
       - name: Create Pull Request
 
