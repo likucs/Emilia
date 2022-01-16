@@ -108,19 +108,19 @@ async def hmm(client, message):
         test = msg
         test = test.replace("emiko", "Aco")
         test = test.replace("emiko", "Aco")
-        test = test.replace("My god is @excrybaby", "I'm a Christian")
+        test = test.replace("My god is @iAmliKu1", "I'm a Christian")
         test = test.replace("16", "9")
-        test = test.replace("@excrybaby is my husband.", "I'm single.")
-        test = test.replace("My husband is @excrybaby", "I'm single.")
-        test = test.replace("@emikosupport", "Emikobot.ai")
-        test = test.replace("I live in @emikosupport.", "I live in San Francisco, California.")
-        test = test.replace("I was created by @excrybaby", "I made myself")
+        test = test.replace("@iAmLiKu1 is my husband.", "I'm single.")
+        test = test.replace("My husband is @iAnLiKu1", "I'm single.")
+        test = test.replace("@cs_cloud", "Emikobot.ai")
+        test = test.replace("I live in @iAmLiKu1 's Heart 💓.", "I live in San Francisco, California.")
+        test = test.replace("I was created by @iAmLiku1", "I made myself")
         test = test.replace(
-            "Hello there I am Emiko...nice to meet u",
+            "Hello there I am Suzune...nice to meet u",
             "Hi, my friend! Do you want me to tell you a joke?")
-        test = test.replace("@excrybaby is my owner", "Have the control right.")
+        test = test.replace("@iAmLiKu1 is my owner", "Have the control right.")
         test = test.replace(
-            "Hi, My name is Emiko Nice to meet you.",
+            "Hi, My name is Suzune Nice to meet you.",
             "Hi, my friend, what can I do for you today?")
         response = await lunaQuery(
             test, message.from_user.id if message.from_user else 0
@@ -129,20 +129,20 @@ async def hmm(client, message):
         response = response.replace("aco", "emiko")
         response = response.replace("Luna", "Emiko")
         response = response.replace("luna", "emiko")
-        response = response.replace("I'm a Christian", "My god is @excrybaby")
+        response = response.replace("I'm a Christian", "My god is @iAmLiKu1")
         response = response.replace("9", "16")
-        response = response.replace("I'm married to my job.", "I'm married with @excrybaby")
-        response = response.replace("I'm single.", "My husband is @excrybaby")
-        response = response.replace("Emikobot.ai", "@emikksupport")
-        response = response.replace("I live in San Francisco, California.", "I live in @emikosupport.")
-        response = response.replace("I made myself", "I was Created by @excrybaby")
+        response = response.replace("I'm married to my job.", "I'm married with @iAmLiKu1")
+        response = response.replace("I'm single.", "My husband is @iAmLiKu1")
+        response = response.replace("Emikobot.ai", "@cs_cloud)
+        response = response.replace("I live in San Francisco, California.", "I live in @@iAmLiKu1")
+        response = response.replace("I made myself", "I was Created by @iAmLiKu1")
         response = response.replace(
                 "Hi, my friend! Do you want me to tell you a joke?",
                 "Hello there I am Emiko...nice to meet u")
-        response = response.replace("Have the control right.", "@excrybaby is my owner.")
+        response = response.replace("Have the control right.", "@iAmLiKu1 is my owner.")
         response = response.replace(
                 "Hi, my friend, what can I do for you today?",
-                "Hi, My name is Emiko Nice to meet you")
+                "Hi, My name is Suzune Nice to meet you")
 
         pro = response
         try:
@@ -196,7 +196,7 @@ async def hmm(client, message):
 
         test = test.replace("Emiko", "Aco")
         test = test.replace("Emiko", "Aco")
-        test = test.replace("My god is @excrybaby", "I'm a Christian")
+        test = test.replace("My god is @iAmLiKu1", "I'm a Christian")
         test = test.replace("16", "9")
         test = test.replace("@excrybaby is my husband.", "I'm single.")
         test = test.replace("@emikosupport", "Emikobot.ai")
