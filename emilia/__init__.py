@@ -36,7 +36,6 @@ from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid, ChannelInv
 
 from pyrogram.types import Chat, User
 
-from ptbcontrib.postgres_persistence import PostgresPersistence
 
 StartTime = time.time()
 
@@ -47,32 +46,14 @@ def get_user_list(__init__, key):
         return json.load(json_file)[key]
 
 # enable logging
-
-FORMAT = "[emilia] %(message)s"
-
 logging.basicConfig(
-
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[logging.FileHandler("log.txt"), logging.StreamHandler()],
-
     level=logging.INFO,
-
-    format=FORMAT,
-
-    datefmt="[%X]",
-
 )
 
-logging.getLogger("pyrogram").setLevel(logging.INFO)
+LOGGER = logging.getLogger(__name__)
 
-logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
-
-LOGGER = logging.getLogger('[emilia]')
-
-LOGGER.info("Emilia is starting. | An Emilia-Prjkt. | Licensed under GPLv3.")
-
-LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
-
-LOGGER.info("Project maintained by: github.com/ZenitsuID (t.me/ZenitsuID)")
 
 # if version < 3.9, stop bot.
 
