@@ -146,6 +146,10 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hey there! My name is {}.
+────────────────────────
+× *Bot Uptime:* `{}`
+× `{}` *users, across* `{}` *chats*
+────────────────────────
 I can managing your group with useful features, feel free to add me to your groups! [✨](https://telegra.ph/file/8142e7aac030eebd40a4e.jpg)
 """
 
