@@ -157,7 +157,7 @@ buttons = [
 
     [
 
-        InlineKeyboardButton(text="About Emilia", callback_data="Emilia_"),
+        InlineKeyboardButton(text="About Sizune", callback_data="Emilia_"),
 
     ],
 
@@ -177,7 +177,7 @@ buttons = [
 
         InlineKeyboardButton(
 
-            text="➗ Add Emilia To Your Group ➗", url="t.me/EmiliaPrjkt_bot?startgroup=new"),
+            text="➗ Add Sizune To Your Group ➗", url="t.me/EmiliaPrjkt_bot?startgroup=new"),
 
     ],
 
@@ -195,7 +195,7 @@ HELP_STRINGS = """
 EMILIA_IMG = "https://telegra.ph/file/8142e7aac030eebd40a4e.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-You can support the project by contacting @ZenitsuID \n
+You can support the project by contacting @iAmliKU1 \n
 Supporting isnt always financial! \n
 Those who cannot provide monetary support are welcome to help us develop the bot at."""
 
@@ -607,7 +607,7 @@ def emilia_about_callback(update, context):
 
         query.message.edit_text(
 
-            text="✦ I'm *Emilia*, a powerful group management bot built to help you manage your group easily."
+            text="✦ I'm *Sizune*, a powerful group management bot built to help you manage your group easily."
 
             "\nI can restrict users."
 
@@ -651,7 +651,7 @@ def emilia_about_callback(update, context):
 
                  [
 
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/ZenitsuPrjkt/Emilia"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/likucs/Emilia"),
 
                  ],
 
@@ -753,7 +753,7 @@ def emilia_about_callback(update, context):
 
         query.message.edit_text(
 
-            text="*✦ Emilia support chats*"
+            text="*✦ sizune support chats*"
 
             "\nJoin My Support Group/Channel for see or report a problem on Emilia.",
 
@@ -765,9 +765,9 @@ def emilia_about_callback(update, context):
 
                  [
 
-                    InlineKeyboardButton(text="Support", url="t.me/emiliasupport"),
+                    InlineKeyboardButton(text="Channel", url="t.me/cs_cloud"),
 
-                    InlineKeyboardButton(text="Updates", url="https://t.me/EmiliaProject"),
+                    InlineKeyboardButton(text="Owner", url="https://t.me/iAmLiKu1"),
 
                  ],
 
@@ -789,7 +789,7 @@ def emilia_about_callback(update, context):
 
         query.message.edit_text(
 
-            text=f"✦ *Credis for Emilia*\n"
+            text=f"✦ *Credis for Sizune*\n"
 
             "\nHere Developers Making And Give Inspiration For Made The Emilia",
 
@@ -801,25 +801,25 @@ def emilia_about_callback(update, context):
 
                  [
 
-                    InlineKeyboardButton(text="Zenitsu Prjkt", url="https://github.com/ZenitsuPrjkt"),
+                    InlineKeyboardButton(text="👑Owner-Liku", url="https://t.me/iAmLiKu1"),
 
-                    InlineKeyboardButton(text="LuanjinX", url="https://github.com/LuanjinX"),
-
-                 ],
-
-                 [
-
-                    InlineKeyboardButton(text="KNGCLX69", url="https://github.com/KNGCLX69"),
-
-                    InlineKeyboardButton(text="Thestar37", url="https://github.com/Thestar37"),
+                    InlineKeyboardButton(text="info-cs", url="https://t.me/about_cs"),
 
                  ],
 
                  [
 
-                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
+                    InlineKeyboardButton(text="Update", url="https://t.me/cs_cloud"),
 
-                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
+                    InlineKeyboardButton(text="Movies_Bot", url="https://t.me/mcmoviesData2_Bot"),
+
+                 ],
+
+                 [
+
+                    InlineKeyboardButton(text="Anime Channel", url="https://t.me/+DghKKgg3Mfg4MDg9"),
+
+                    InlineKeyboardButton(text="Anime groups", url="https://t.me/mc_Anime_Group"),
 
                  ],
 
@@ -835,7 +835,7 @@ def emilia_about_callback(update, context):
 
                     InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
 
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
+                    InlineKeyboardButton(text="MC - Credit", url="https://t.me/xXtheAnonymousXx"),
 
                  ],
 
@@ -1515,7 +1515,7 @@ def main():
 
         updater.start_polling(timeout=15, read_latency=4, drop_pending_updates=True)
 
-    if len(argv) not in (1, 3, 4):
+    if len(argv) not in (1, 3, 4): 
 
         telethn.disconnect()
 
